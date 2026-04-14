@@ -58,7 +58,7 @@ We're going to try some of the features WorldEdit has to offer.
 4. Take out the Mask Picker in your inventory and use it on the sandstone. Set a block of your choice as your pattern, and use "Fill Selection". All sandstone should now be replaced with that block.
 5. Repeat your selection upwards by typing the command `;stack 4 up`.
 
-If you want to you can undo everthing by using the undo item until you can't undo any further. You should also use `;mask` to clear the mask created previously.
+If you want to you can undo everthing by using the undo item until you can't undo any further. You should also use `;gmask` to clear the gmask created previously.
 
 ## Playing with brushes
 
