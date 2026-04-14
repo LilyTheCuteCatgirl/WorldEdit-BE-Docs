@@ -1,6 +1,6 @@
 # Commands
 
-Commands are the main way to use the many features of WorldEdit. Type `/help` to get a list of available commands. If you don't find a command here that's in the original, look in the [differences](differences.md) page to see if it's planned.
+Commands are the main way to use the many features of WorldEdit. Type `;help` to get a list of available commands. If you don't find a command here that's in the original, look in the [differences](differences.md) page to see if it's planned.
 
 [TOC]
 
