@@ -50,28 +50,6 @@ Use the erosion brush to shape terrain with great control. It comes in various m
 - `melt` mode does the opposite of `fill`.
 - `smooth` mode smoothes the terrain.
 
-### Raise Brush
-
-```txt
-;brush raise [radius] [height] [falloff <amount> [type]] [-m <mask>]
-;brush raise [radius] [height] [-m <mask>]
-```
-
-The raise brush raises (or lowers) terrain by adjusting the height map in the affected area. Every use shifts the terrain surface up by `height` blocks (use a negative value to lower terrain). The optional `falloff` sub-command lets you control how quickly the effect fades from the center outward. There are different types of easing you can use, such as `linear` (default) and `ease_in_circ`. You can find more types from [easings.net](https://easings.net).
-
-!!! Examples
-
-    `;brush raise 5 2`
-
-    Raises terrain by 2 blocks in a radius-5 area with no falloff.
-
-    `;brush raise 5 3 falloff 0.8 ease_in_out_quad`
-
-    Raises terrain by 3 blocks with a strong smooth falloff toward the edges.
-
-    `;brush raise 4 -1`
-
-    Lowers terrain by 1 block in a radius-4 area.
 
 ### Overlay brush
 
