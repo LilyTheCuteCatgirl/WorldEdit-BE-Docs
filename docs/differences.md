@@ -12,25 +12,25 @@ The following commands are planned to be implemented.
 - //overlay
 - //naturalize
 - //deform
-- /tool()
+- //tool()
     - deltree
     - lrbuild
     - floodfill
     - info
-- /brush
+- //brush
     - butcher
     - gravity
     - extinguish
     - raise
     - lower
-    - set
     - deform
     - snow
-- /listchunks
-- /delchunks
-- /remove
+- //listchunks
+- //delchunks
+- //remove
 
-Commands that alter biome data, use images, or do any form of arbitrary file operation will be much harder to implement due to API limitations, so they will take longer to become a feature of the addon.
+  you can give more ideas and feedback on the Discord server!
+
 
 ## Brushes and Tools
 
